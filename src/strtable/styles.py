@@ -22,7 +22,7 @@ class TableStyle:
     right_t: str
 
 
-// ASCII style
+# ASCII style
 ASCII_STYLE = TableStyle(
     top_left="+",
     top_right="+",
@@ -37,7 +37,7 @@ ASCII_STYLE = TableStyle(
     right_t="+",
 )
 
-// Unicode box-drawing style
+# Unicode box-drawing style
 UNICODE_STYLE = TableStyle(
     top_left="┌",
     top_right="┐",
@@ -52,7 +52,7 @@ UNICODE_STYLE = TableStyle(
     right_t="┤",
 )
 
-// Markdown style (no top/bottom, left/right borders)
+# Markdown style (no top/bottom, left/right borders)
 MARKDOWN_STYLE = TableStyle(
     top_left="",
     top_right="",
@@ -67,7 +67,7 @@ MARKDOWN_STYLE = TableStyle(
     right_t="|",
 )
 
-// None style (no borders)
+# None style (no borders)
 NONE_STYLE = TableStyle(
     top_left="",
     top_right="",
